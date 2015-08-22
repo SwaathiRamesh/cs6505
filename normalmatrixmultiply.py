@@ -16,5 +16,5 @@ for i in range(5):
     for j in range(5):
         Result[i][j]=0
         for k in range(5):
-            Result[i][j]+=A[i][k]+B[k][j]
+            Result[i][j]+=A[i][k]*B[k][j]
 print Result
